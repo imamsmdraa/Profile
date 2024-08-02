@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// NOT INSPECTED
-// document.addEventListener("contextmenu", function (event) {
-//   alert("Lu mau nge inspekk? wkwkwk");
-//   event.preventDefault();
-// });
+
+document.addEventListener("contextmenu", function (event) {
+  alert("Lu mau nge inspekk? wkwkwk");
+  event.preventDefault();
+});
 
 
 const carousel = document.querySelector(".carousel");
